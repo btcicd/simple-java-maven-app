@@ -12,17 +12,7 @@
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
   
-  <distributionManagement>
-    <repository>
-      <id>nexus</id>
-      <url>http://52.41.160.182:8081/repository/test/</url>
-    </repository>
-    <snapshotRepository>
-      <id>nexus</id>
-      <url>http://52.41.160.182:8081/repository/test/</url>
-    </snapshotRepository>
-  </distributionManagement>
-  
+ 
   
   <dependencies>
     <dependency>
