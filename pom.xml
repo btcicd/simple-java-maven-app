@@ -15,11 +15,11 @@
   <distributionManagement>
     <repository>
       <id>nexus</id>
-      <url>http://52.41.160.182:8081/repository/test/</url>
+      <url>http://52.41.160.182:8081/repository/maven-central/</url>
     </repository>
     <snapshotRepository>
       <id>nexus</id>
-      <url>http://52.41.160.182:8081/repository/test/</url>
+      <url>http://52.41.160.182:8081/repository/maven-central/</url>
     </snapshotRepository>
   </distributionManagement>
   
