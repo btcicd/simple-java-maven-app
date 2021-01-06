@@ -11,8 +11,8 @@ pipeline {
         sh "pwd"
         sh "ls -ltr"
         script {
-          def scannerHome = tool 'SonarQube'
-          withSonarQubeEnv('SonarQube') { 
+          def scannerHome = tool 'SonarRunner'
+          withSonarQubeEnv('SonarRunner') { 
             //sh "${scannerHome}/bin/sonar-scanner"
             sh "${scannerHome}/bin/sonar-scanner -Dsonar.projectKey=${env.JOB_BASE_NAME}"
           }
